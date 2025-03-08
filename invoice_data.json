@@ -1,0 +1,70 @@
+{
+  "table_content": [
+    {
+      "Description": "[1356578] WLY602040 400 mAh 3.7V single cell Rechargeable LiPo Battery",
+      "HSN": "85076000",
+      "Rate": "160.170000",
+      "Qty": "4.00",
+      "Disc": "0.00",
+      "Amount": "640.68",
+      "IGST": "115.32\n(18.0%)",
+      "Total": "756.00"
+    },
+    {
+      "Description": "[44255] 3PI miniQ Car wheel Tyre 44mm N20 DC Gear Motor Wheel",
+      "HSN": "84799090",
+      "Rate": "43.220000",
+      "Qty": "4.00",
+      "Disc": "0.00",
+      "Amount": "172.88",
+      "IGST": "31.12\n(18.0%)",
+      "Total": "204.00"
+    },
+    {
+      "Description": "[476675] N20 6V 150RPM Micro Metal Gear Motor With Encoder",
+      "HSN": "85013111",
+      "Rate": "397.457500",
+      "Qty": "8.00",
+      "Disc": "0.00",
+      "Amount": "3.179.66",
+      "IGST": "572.34\n(18.0%)",
+      "Total": "3,752)"
+    },
+    {
+      "Description": "[std_shipping] STANDARD SHIPPING",
+      "HSN": "996819",
+      "Rate": "0.000000",
+      "Qty": "1.00",
+      "Disc": "0.00",
+      "Amount": "0.00",
+      "IGST": "0.00\n(18.0%)",
+      "Total": "0.00"
+    }
+  ],
+  "buyer_details": {
+    "Customer_Name": "Vansh Sachdeva",
+    "Address": "Indraprastha Appartments\nPocket-3, Sector-12\nSouth West Delhi, 110078\nDelhi, DL, India",
+    "Phone": "9910593396",
+    "Email": "vanshsachdeva2005@gmail.com",
+    "Place_of_Supply": "07 - Delhi"
+  },
+  "seller_details": {
+    "Company_Name": "MACFOS LIMITED",
+    "Address": "Sumant Building, Dynamic Logistics Trade Park\nSurvey No. 78/1 Dighi, Bhosari Alandi Road Pune 411\nMaharashtra MH\nIndia",
+    "Phone": "02068197600",
+    "Email": "info@robu.in",
+    "GSTIN": "27AALCM3536H1ZA",
+    "CIN": "129309PN2017PLC172718"
+  },
+  "invoice_details": {
+    "Invoice_Number": "INV2425/315652",
+    "Invoice_Date": "05/02/2025",
+    "Sale_Order": "2526374",
+    "Reference": "INV2425/315652",
+    "Subtotal": "3,993.2",
+    "Taxes": "718.78",
+    "Total": "4,712.00",
+    "Amount_in_Words": "FOUR THOUSAND, SEVEN HUNDRED AND TWELVE INDIAN RUPEE",
+    "Payment_terms": "Immediate Payment"
+  }
+}
