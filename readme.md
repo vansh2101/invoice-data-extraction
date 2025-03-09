@@ -9,13 +9,18 @@ This project focuses on extracting structured and unstructured data from invoice
 
 To ensure the reliability of extracted data, a confidence score is computed using *Word Error Rate (WER)* and *Character Error Rate (CER)*.
 
+## File Structure
+- **Invoice_Data_Extraction.ipynb:** Contains all the code for the pipeline
+- **invoice.png:** sample invoice used for testing
+- **invoice_data.json:** output of invoice.png from our pipeline.
+
 ## Flow of Thought
-1. File Format Conversion (if needed): If invoices are in pdf format, we extract all the pages as images.
+1. *File Format Conversion (if needed):* If invoices are in pdf format, we extract all the pages as images.
 
-2. Gemini Vision Capabilities: We use `Gemini-2.0-flash` along with structured prompting method to extract both tabular and unstructured data mentioned in the provided invoice. We instruct gemini to output the data in the given format i.e. json object.
+2. *Gemini Vision Capabilities:* We use `Gemini-2.0-flash` along with structured prompting method to extract both tabular and unstructured data mentioned in the provided invoice. We instruct gemini to output the data in the given format i.e. json object.
 
-3. Confidence Estimation:
-    - We utilize *Chain-of-Thought prompting* and *Self-Ask prompting* method to provide steps to our data extraction model to compute a confidence score.
+3. *Confidence Estimation:*
+    - We utilize **Chain-of-Thought prompting** and **Self-Ask prompting** method to provide steps to our data extraction model to compute a confidence score.
     - Gemini-2.0-Flash is used to write a python code to compute WER and CER on the reference and its extracted data.
     - The final confidence score is computed using the formula:
 $Confidence Score = 1 + weight * \frac{(WER + CER)}{2}$
