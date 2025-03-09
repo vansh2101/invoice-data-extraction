@@ -20,6 +20,21 @@ To ensure the reliability of extracted data, a confidence score is computed usin
     - The final confidence score is computed using the formula:
 $Confidence Score = 1 + weight * \frac{(WER + CER)}{2}$
 
+
+## Comparison
+### 1. Microsoft's Table Transformer
+- A powerful deep-learning model designed to extract structured tabular data from documents.
+- Limitations:
+    - Focuses primarily on table extraction and struggles with unstructured elements like buyer/seller details or payment terms.
+    - Computationally expensive with longer inference times.
+ 
+### 2. PDF to Markdown (pdf2md)
+- Converts PDF documents into markdown-formatted text, preserving the structural integrity.
+- Limitations:
+    - Lacks intelligent parsing—fails to differentiate between invoice metadata and tabular data.
+    - Struggles with handwritten or scanned invoices requiring OCR-based extraction.
+
+
 ## Why Use Gemini-2.0-Flash?
 ### 1. Speed & Efficiency 
 Gemini-2.0-Flash is optimized for fast inference and cost efficiency, making it ideal for production use.
